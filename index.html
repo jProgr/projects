@@ -1,14 +1,140 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="main.css">
-    </head>
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Cristóbal Meléndez</title>
+  <link rel="stylesheet" type="text/css" href="semantic/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="semantic/components/container.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/header.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="semantic/components/button.css">
+  
+
+  <link rel="stylesheet" type="text/css" href="custom.css">
+
+  <style type="text/css">
+
+    body {
+      background-color: #ee5041;
+    }
+
+    .hidden.menu {
+      display: none;
+    }
+
+    .masthead.segment {
+      min-height: 700px;
+      padding: 1em 0em;
+    }
+    .masthead .logo.item img {
+      margin-right: 1em;
+    }
+    .masthead .ui.menu .ui.button {
+      margin-left: 0.5em;
+    }
+    .masthead h1.ui.header {
+      margin-top: 3em;
+      margin-bottom: 0em;
+      font-size: 4em;
+      font-weight: normal;
+    }
+    .masthead h2 {
+      font-size: 1.7em;
+      font-weight: normal;
+    }
+
+    .ui.vertical.stripe {
+      padding: 8em 0em;
+    }
+    .ui.vertical.stripe h3 {
+      font-size: 2em;
+    }
+    .ui.vertical.stripe .button + h3,
+    .ui.vertical.stripe p + h3 {
+      margin-top: 3em;
+    }
+    .ui.vertical.stripe .floated.image {
+      clear: both;
+    }
+    .ui.vertical.stripe p {
+      font-size: 1.33em;
+    }
+    .ui.vertical.stripe .horizontal.divider {
+      margin: 3em 0em;
+    }
+
+    .quote.stripe.segment {
+      padding: 0em;
+    }
+    .quote.stripe.segment .grid .column {
+      padding-top: 5em;
+      padding-bottom: 5em;
+    }
+
+    .footer.segment {
+      padding: 5em 0em;
+    }
+
+    .secondary.pointing.menu .toc.item {
+      display: none;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .ui.fixed.menu {
+        display: none !important;
+      }
+      .secondary.pointing.menu .item,
+      .secondary.pointing.menu .menu {
+        display: none;
+      }
+      .secondary.pointing.menu .toc.item {
+        display: block;
+      }
+      .masthead.segment {
+        min-height: 350px;
+      }
+      .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+      }
+      .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+      }
+    }
+
+
+  </style>
+
+</head>
 <body>
-    <h1>Test</h1>
-    <a href="projects/projects-es.html">ES</a> -
-    <a href="projects/projects-en.html">EN</a> -
-    <a href="projects/projects-tp.html">TP</a> -
+
+<!-- Page Contents -->
+<div class="pusher">
+  <div class="ui inverted vertical masthead center aligned segment">
+
+    <!-- Main -->
+    <div class="ui text container">
+      <h1 class="ui inverted header">Cristóbal Meléndez</h1>
+      <h2>HTML, CSS, SCSS, Bootstrap, Semantic UI, JavaScript, jQuery, Angular</h2>
+      <div class="ui buttons">
+        <a href="projects/projects-es.html" class="massive ui basic inverted button">Español</a>
+        <a href="projects/projects-en.html" class="massive ui basic inverted button">English</a>
+        <a href="projects/projects-tp.html" class="massive ui basic inverted button">Toki Pona</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 </body>
+
 </html>
